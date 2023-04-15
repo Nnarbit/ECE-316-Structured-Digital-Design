@@ -1,0 +1,17 @@
+quit -sim
+vcom display7segment.vhd
+vsim -t ns display7segment
+add wave -divider Inputs:
+add wave Din
+add wave Dout
+
+force Din 0000
+force Din 0001
+force Din 0010
+force Din 0011
+force Din 0100
+force Din 0101
+force Din 0110
+force Din 0111
+force Din 1000
+force Din 1001

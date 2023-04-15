@@ -1,0 +1,4 @@
+quit -sim
+vcom accumulator24bit.vhd
+vsim -t ns accumulator24bit
+add wave -divider Inputs:

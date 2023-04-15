@@ -1,0 +1,618 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2
+Eadd3
+Z0 w1677080333
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 118
+Z3 dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3
+Z4 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Add3.vhd
+Z5 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Add3.vhd
+l0
+L5 1
+VX?f;jC7:<ad4BfTA;>7Ka2
+!s100 jf1d4ga7LH^UOVWLhJPn[1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1677091507
+!i10b 1
+Z8 !s108 1677091507.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Add3.vhd|
+Z10 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Add3.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abhv_add3
+R1
+R2
+DEx4 work 4 add3 0 22 X?f;jC7:<ad4BfTA;>7Ka2
+!i122 118
+l11
+Z13 L10 7
+VIm2Tjgz]>^;B<eej;hGPg3
+!s100 zcbD;P_YWGK_2MK0L`P632
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadder4
+Z14 w1677015674
+R1
+R2
+!i122 111
+R3
+Z15 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd
+Z16 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd
+l0
+L4 1
+VJhcU<f<h63>2XZjN:JGVd3
+!s100 EHXWZ^ia;=n3WZjLQ;4Oj0
+R6
+32
+Z17 !s110 1677091506
+!i10b 1
+Z18 !s108 1677091506.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd|
+Z20 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 6 adder4 0 22 JhcU<f<h63>2XZjN:JGVd3
+!i122 111
+l20
+Z21 L11 16
+VJcIzYFzlAX_<0D5McS4<L2
+!s100 mD]UA;Vz0MVi7;]3OzTTe3
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Eadder8
+Z22 w1677021032
+R1
+R2
+!i122 117
+R3
+Z23 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Adder8.vhd
+Z24 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Adder8.vhd
+l0
+L4 1
+VIGP;D33Q?H=I86VmacEZF3
+!s100 5k;0ETkd[@OOi`dEhSi3c1
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Adder8.vhd|
+Z26 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Adder8.vhd|
+!i113 1
+R11
+R12
+Abhv_adder8
+R1
+R2
+DEx4 work 6 adder8 0 22 IGP;D33Q?H=I86VmacEZF3
+!i122 117
+l22
+R21
+V:OookDKBld;CQnIh2mQDE0
+!s100 FYU>5LH2Ue8DRBTeBgFKD2
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Ebcd
+Z27 w1677088553
+R1
+R2
+!i122 119
+R3
+Z28 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/BCD.vhd
+Z29 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/BCD.vhd
+l0
+L4 1
+VP61jn<jDQz@>R4^b?zEz:3
+!s100 bAJakA0gQ;?:nF2^:Sh[a2
+R6
+32
+R7
+!i10b 1
+R8
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/BCD.vhd|
+Z31 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/BCD.vhd|
+!i113 1
+R11
+R12
+Abhv_bcd
+R1
+R2
+DEx4 work 3 bcd 0 22 P61jn<jDQz@>R4^b?zEz:3
+!i122 119
+l19
+L10 64
+V2lG6_W7blWdb_a`0YO4`X1
+!s100 >a36ETAl7EN=8Y1YzB`ZG3
+R6
+32
+R7
+!i10b 1
+R8
+R30
+R31
+!i113 1
+R11
+R12
+Eclaadder
+Z32 w1677020106
+R1
+R2
+!i122 112
+R3
+Z33 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd
+Z34 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd
+l0
+L4 1
+V7^I@1a<Z<CQSHPA=2C6>S2
+!s100 WjEg`Q:N0k9Jc;l^K37:i0
+R6
+32
+R17
+!i10b 1
+R18
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd|
+Z36 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd|
+!i113 1
+R11
+R12
+Abhv_claadder
+R1
+R2
+DEx4 work 8 claadder 0 22 7^I@1a<Z<CQSHPA=2C6>S2
+!i122 112
+l27
+L11 25
+VmL?43UoUMF6BGJZ^J<@a02
+!s100 :6HM3koP[JBR1l<HWN1?V0
+R6
+32
+R17
+!i10b 1
+R18
+R35
+R36
+!i113 1
+R11
+R12
+Eclalogic
+Z37 w1677017402
+R1
+R2
+!i122 113
+R3
+Z38 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd
+Z39 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd
+l0
+L4 1
+V:aK2NSRCOF0BQdV4IGhCI3
+!s100 @G>:zVPI5QnafXE^TkdC?0
+R6
+32
+R17
+!i10b 1
+R18
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd|
+Z41 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd|
+!i113 1
+R11
+R12
+Abhv_clalogic
+R1
+R2
+DEx4 work 8 clalogic 0 22 :aK2NSRCOF0BQdV4IGhCI3
+!i122 113
+l11
+R13
+V3Y`>IC3QaBFFAcfn]=I@_2
+!s100 oc4P^^0jnP4hM^zC`[e_a2
+R6
+32
+R17
+!i10b 1
+R18
+R40
+R41
+!i113 1
+R11
+R12
+Edisplay7segment
+Z42 w1677091448
+R1
+R2
+!i122 123
+R3
+Z43 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/display7segment.vhd
+Z44 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/display7segment.vhd
+l0
+L4 1
+Vhb9o^T@LnDD8X[bIULllN3
+!s100 7M]TQ2Ak5U_iEITTiaRNP1
+R6
+32
+Z45 !s110 1677091508
+!i10b 1
+Z46 !s108 1677091508.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/display7segment.vhd|
+Z48 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/display7segment.vhd|
+!i113 1
+R11
+R12
+Abhv_display7segment
+R1
+R2
+DEx4 work 15 display7segment 0 22 hb9o^T@LnDD8X[bIULllN3
+!i122 123
+l11
+L10 28
+V;jh9kedJ`LoFXZSJ54@d=3
+!s100 6:WeUNzHmNn=TJCNb<Ng?0
+R6
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Efulladder
+Z49 w1677020904
+!i122 114
+R3
+Z50 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd
+Z51 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd
+l0
+L1 1
+VOUNa[^Ol<GbSoXhdooD353
+!s100 9Hc;YJKX@gK2:XKL6b;0M2
+R6
+32
+R17
+!i10b 1
+R18
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd|
+Z53 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd|
+!i113 1
+R11
+R12
+Abehav
+DEx4 work 9 fulladder 0 22 OUNa[^Ol<GbSoXhdooD353
+!i122 114
+l6
+L5 5
+VOHe9hUDVWE]W`[zn>[KZS1
+!s100 Zj7eD8>YaMS[S@K@85@A=2
+R6
+32
+R17
+!i10b 1
+R18
+R52
+R53
+!i113 1
+R11
+R12
+Efulladdergp
+Z54 w1677020902
+R1
+R2
+!i122 115
+R3
+Z55 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd
+Z56 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd
+l0
+L4 1
+V0=6aBoAi2]kPQWTo=^^:80
+!s100 <[1oeXLX9Kd=4o<UL5h0>0
+R6
+32
+R17
+!i10b 1
+R18
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd|
+Z58 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 11 fulladdergp 0 22 0=6aBoAi2]kPQWTo=^^:80
+!i122 115
+l10
+L9 6
+Vh37RO@;ZE?Yb?imRP;imV1
+!s100 Q;8<^bF9[[KGJLT3h3=L30
+R6
+32
+R17
+!i10b 1
+R18
+R57
+R58
+!i113 1
+R11
+R12
+Emux4bus8
+Z59 w1677088051
+R1
+R2
+!i122 97
+R3
+Z60 8C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 1\mux4bus8.vhd
+Z61 FC:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 1\mux4bus8.vhd
+l0
+L4 1
+V_5D@h<7`EIdZL?iD5iX310
+!s100 IMTeGZD:;c8N]fQ0=79m[0
+R6
+32
+Z62 !s110 1677088193
+!i10b 1
+Z63 !s108 1677088192.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 1\mux4bus8.vhd|
+Z65 !s107 C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 1\mux4bus8.vhd|
+!i113 1
+R11
+R12
+Aarch_mux4bus8
+R1
+R2
+DEx4 work 8 mux4bus8 0 22 _5D@h<7`EIdZL?iD5iX310
+!i122 97
+l11
+Z66 L10 13
+VBz_z>QDdQ`maf<`;gaenX0
+!s100 ]Wc]2SVi`hdnCaQGldY=<0
+R6
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R11
+R12
+Emux_4to1_8bitbus_top
+Z67 w1677088237
+R1
+R2
+!i122 122
+R3
+Z68 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/mux4bus8.vhd
+Z69 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/mux4bus8.vhd
+l0
+L4 1
+VoCgZaFo4270j`Fg_GC`8f0
+!s100 lUTgNMURP^YV`gE;3h8eW0
+R6
+32
+R45
+!i10b 1
+R8
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/mux4bus8.vhd|
+Z71 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/mux4bus8.vhd|
+!i113 1
+R11
+R12
+Aarch_mux_4to1_8bitbus_top
+R1
+R2
+DEx4 work 20 mux_4to1_8bitbus_top 0 22 oCgZaFo4270j`Fg_GC`8f0
+!i122 122
+l11
+R66
+VZ2[A8;YGEVzWfT_e5oLUZ0
+!s100 ngK2Z?nQS883YQ6UF7RLS2
+R6
+32
+R45
+!i10b 1
+R8
+R70
+R71
+!i113 1
+R11
+R12
+Eregister8
+Z72 w1677074557
+R1
+R2
+!i122 116
+R3
+Z73 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 1/Register8.vhd
+Z74 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 1/Register8.vhd
+l0
+L4 1
+V0QRUTM7F_@PHPlSbOn:L_1
+!s100 `Z^_ZAbSf@TB?L4O8ZYoT1
+R6
+32
+R7
+!i10b 1
+R8
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 1/Register8.vhd|
+Z76 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 1/Register8.vhd|
+!i113 1
+R11
+R12
+Aarch_register8
+R1
+R2
+DEx4 work 9 register8 0 22 0QRUTM7F_@PHPlSbOn:L_1
+!i122 116
+l12
+L10 12
+V@gWk2GOAY4?7A9N8?HZ9W3
+!s100 lTFC`Oh4@H>MYd0cYCFjB0
+R6
+32
+R7
+!i10b 1
+R8
+R75
+R76
+!i113 1
+R11
+R12
+Eregister8l0
+Z77 w1677076147
+R1
+R2
+!i122 78
+R3
+Z78 8Register8Load0.vhd
+Z79 FRegister8Load0.vhd
+l0
+L4 1
+V9nKj79Mch>dAJ<ia]ngYg3
+!s100 z;CdUF6mcPJI`ZkM4@T482
+R6
+32
+Z80 !s110 1677087509
+!i10b 1
+Z81 !s108 1677087509.000000
+Z82 !s90 -reportprogress|300|Register8Load0.vhd|
+Z83 !s107 Register8Load0.vhd|
+!i113 1
+R12
+Aarch_register8l0
+R1
+R2
+DEx4 work 11 register8l0 0 22 9nKj79Mch>dAJ<ia]ngYg3
+!i122 78
+l12
+Z84 L10 14
+V0hGMFSK_`nlK0@S=lkn2N2
+!s100 @TI4leD42a8LAhkF_`6Ng0
+R6
+32
+R80
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R12
+Eregister8load0
+Z85 w1677087559
+R1
+R2
+!i122 120
+R3
+Z86 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Register8Load0.vhd
+Z87 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Register8Load0.vhd
+l0
+L4 1
+V`RgAOUg:g:7XE@z_G9][S2
+!s100 6@0S9QYEa^D19l_IFcIa13
+R6
+32
+R7
+!i10b 1
+R8
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Register8Load0.vhd|
+Z89 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Register8Load0.vhd|
+!i113 1
+R11
+R12
+Aarch_register8load0
+R1
+R2
+DEx4 work 14 register8load0 0 22 `RgAOUg:g:7XE@z_G9][S2
+!i122 120
+l12
+R84
+V70];6R5MSV<W6=ao>SN5V1
+!s100 ]o>gKKccD^1Jb8B5gZHN13
+R6
+32
+R7
+!i10b 1
+R8
+R88
+R89
+!i113 1
+R11
+R12
+Esimplealu
+Z90 w1677094424
+R1
+R2
+!i122 128
+R3
+Z91 8SimpleALU.vhd
+Z92 FSimpleALU.vhd
+l0
+L4 1
+V44B]]DVkEEdTMicKI1^<n1
+!s100 [WV>kLF9R[KT6mDG1jDo_2
+R6
+32
+Z93 !s110 1677903948
+!i10b 1
+Z94 !s108 1677903948.000000
+Z95 !s90 -reportprogress|300|SimpleALU.vhd|
+!s107 SimpleALU.vhd|
+!i113 1
+R12
+Abhv_simplealu
+R1
+R2
+DEx4 work 9 simplealu 0 22 44B]]DVkEEdTMicKI1^<n1
+!i122 128
+l48
+Z96 L13 45
+VZB>m=BDQ6MR?acWG;45V?0
+Z97 !s100 >fmbAIg<4][TbOOCDj7lN3
+R6
+32
+R93
+!i10b 1
+R94
+R95
+Z98 !s107 SimpleALU.vhd|
+!i113 1
+R12

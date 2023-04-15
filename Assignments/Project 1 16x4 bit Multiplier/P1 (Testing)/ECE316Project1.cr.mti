@@ -1,0 +1,77 @@
+{C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/BCD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Project 1\ECE316Project1\BCD.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity BCD
+-- Compiling architecture struct of BCD
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/accumulator24bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Project 1\ECE316Project1\accumulator24bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity accumulator24bit
+-- Compiling architecture Bhv of accumulator24bit
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/arrayMultiplier4x4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/arrayMultiplier4x4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arrayMultiplier4x4
+-- Compiling architecture behav of arrayMultiplier4x4
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/fullAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/fullAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture behav of fullAdder
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/halfAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/halfAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity halfAdder
+-- Compiling architecture behav of halfAdder
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder8
+-- Compiling architecture bhv of adder8
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/sevenSegmentDisp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/sevenSegmentDisp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sevenSegmentDisp
+-- Compiling architecture behav of sevenSegmentDisp
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder4
+-- Compiling architecture bhv of adder4
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controller
+-- Compiling architecture struct of controller
+
+} {} {}}

@@ -1,0 +1,107 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity elevatorControlCircuit is
+    port( 
+        N : in std_logic_vector (2 downto 1); -- floor call
+        FS : in std_logic_vector (2 downto 1); -- floor sensor
+        DC, CLOCK, RESET, FIRE : in std_logic; -- DC = door closed 
+        R : out std_logic_vector(2 downto 1); -- reset floor
+        UP, DOWN, DO : out std_logic; -- DO = door open
+        F : out std_logic_vector(6 downto 0) -- 7-segment display of current floor (coded for DE1-SOC, active low 7seg)
+    );
+end elevatorControlCircuit;
+
+architecture bhv of elevatorControlCircuit is
+    type STATE_TYPE is (INITIAL, IDLE, CALL);
+    signal PS, NS   : STATE_TYPE; -- present and next state
+begin
+    process (CLOCK, RESET) begin
+        if RESET = '0' then
+            PS <= INITIAL;
+        elsif CLOCK'EVENT and CLOCK = '0' then
+            PS <= NS;
+        end if;
+    end process;
+
+    process (PS, N, FIRE) begin
+        case PS is 
+            when INITIAL =>
+                NS <= IDLE;
+            when IDLE =>
+                if N /= "00" or FIRE = '1' then
+                    NS <= CALL;  
+                else
+                    NS <= IDLE;
+                end if;
+            when CALL =>
+                if FIRE = '1' then
+                    -- fire call
+                    if FS /= "01" then
+                        NS <= CALL;
+                    else 
+                        NS <= IDLE;
+                    end if;
+                else
+                    -- normal operation
+                    if FS = "10" or FS = "01" then
+                        -- Reset Call
+                        NS <= IDLE;
+                    else 
+                        NS <= CALL;
+                    end if; 
+                end if; 
+        end case;
+    end process;
+
+    process (PS) begin
+        if PS = INITIAL then
+            UP <= '0';
+            DOWN <= '0';
+            DO <= '0';
+            F <= "1111111";
+        elsif PS = IDLE then
+            if FS = "01" then
+                F <= "1111001"; -- floor 1
+            elsif FS = "10" then
+                F <= "0100100"; -- floor 2
+            end if;
+        elsif PS = CALL then
+            -- fire call
+            if FIRE = '1' then
+                R <= "11";
+                if FS /= "01" then
+                    DOWN <= '1';
+                else 
+                    DO <= '1';
+                end if;
+            else
+                -- normal operation
+                if N = "00" then -- necessary
+                    
+                elsif FS < N then
+                    UP <= '1';
+                elsif FS > N then 
+                    DOWN <= '1';
+                end if;
+
+                if FS = N then
+                    -- Reset Call
+                    if FS = "01" then 
+                        R <= "01";
+                    elsif FS = "10" then
+                        R <= "10";
+                    end if;
+                    UP <= '0';
+                    DOWN <= '0';
+                    DO <= '1';
+                end if; 
+            end if; 
+        end if;
+    end process;
+
+
+    R(1) <= '0' when N(1) = '0';
+    R(2) <= '0' when N(2) = '0'; 
+end bhv;

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Mar 10 12:55:12 2023
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : ECE316Assignment4
+Top-level Entity Name : elevator
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 6
+Total pins : 19
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

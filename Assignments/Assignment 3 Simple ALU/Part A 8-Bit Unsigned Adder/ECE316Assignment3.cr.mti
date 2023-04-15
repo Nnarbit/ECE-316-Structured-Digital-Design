@@ -1,0 +1,95 @@
+{C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Register8Load0.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Register8Load0.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register8Load0
+-- Compiling architecture Arch_Register8Load0 of Register8Load0
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CLAAdder
+-- Compiling architecture bhv_CLAAdder of CLAAdder
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/mux4bus8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/mux4bus8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4to1_8bitBus_top
+-- Compiling architecture arch_mux_4to1_8bitBus_top of mux_4to1_8bitBus_top
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Adder8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Adder8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder8
+-- Compiling architecture bhv_Adder8 of Adder8
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/display7segment.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/display7segment.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity display7segment
+-- Compiling architecture bhv_display7segment of display7segment
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FullAdderGP
+-- Compiling architecture behav of FullAdderGP
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder4
+-- Compiling architecture struct of Adder4
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 1/Register8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 1/Register8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register8
+-- Compiling architecture Arch_Register8 of Register8
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Add3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Add3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Add3
+-- Compiling architecture bhv_Add3 of Add3
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CLALogic
+-- Compiling architecture bhv_CLAlogic of CLAlogic
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/BCD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/BCD.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCD
+-- Compiling architecture bhv_BCD of BCD
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity FullAdder
+-- Compiling architecture behav of FullAdder
+
+} {} {}}

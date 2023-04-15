@@ -1,0 +1,425 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 4
+Eaccumulator24bit
+Z0 w1680887874
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 151
+Z3 dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1
+Z4 8accumulator24bit.vhd
+Z5 Faccumulator24bit.vhd
+l0
+L4 1
+Vc^oZ[FFDdN0>bC]IDY>fA3
+!s100 E?QJIQV8:JadZol7>>Clk1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1680888485
+!i10b 1
+Z8 !s108 1680888484.000000
+Z9 !s90 -reportprogress|300|accumulator24bit.vhd|
+!s107 accumulator24bit.vhd|
+!i113 1
+Z10 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+DEx4 work 16 accumulator24bit 0 22 c^oZ[FFDdN0>bC]IDY>fA3
+!i122 151
+l13
+Z11 L11 21
+VD@<SNFD_6VJM;N7K4Wb9B0
+Z12 !s100 U4RHT_JQQ<DWCPn2CgJh92
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z13 !s107 accumulator24bit.vhd|
+!i113 1
+R10
+Eadder4
+Z14 w1680832382
+R1
+R2
+!i122 138
+R3
+Z15 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder4.vhd
+Z16 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder4.vhd
+l0
+L4 1
+V=B:d[RKDLfeZ2gjf6]fSV3
+!s100 fHSLA64LCldEdC7Bc^CIz1
+R6
+32
+Z17 !s110 1680887697
+!i10b 1
+Z18 !s108 1680887696.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder4.vhd|
+Z20 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder4.vhd|
+!i113 1
+Z21 o-work work -2002 -explicit
+R10
+Abhv
+R1
+R2
+DEx4 work 6 adder4 0 22 =B:d[RKDLfeZ2gjf6]fSV3
+!i122 138
+l18
+Z22 L11 14
+VDHB1NI@:AnOWE=GTVdV4W1
+!s100 8D9QzSiKA:I;nL4cD0U5V2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R10
+Eadder8
+Z23 w1680819356
+R1
+R2
+!i122 139
+R3
+Z24 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder8.vhd
+Z25 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder8.vhd
+l0
+L4 1
+Vg=NDZD0A4DZO7I_F`?S_:3
+!s100 ?RNU>2d1XZlKW7226j4^d3
+R6
+32
+R17
+!i10b 1
+Z26 !s108 1680887697.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder8.vhd|
+Z28 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/adder8.vhd|
+!i113 1
+R21
+R10
+Abhv
+R1
+R2
+DEx4 work 6 adder8 0 22 g=NDZD0A4DZO7I_F`?S_:3
+!i122 139
+l21
+R22
+V2<><92l?6PD`i2o@mCL8b1
+!s100 aDeU2k;2Aj75S;G23^Fka3
+R6
+32
+R17
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R21
+R10
+Earraymultiplier4x4
+Z29 w1680883960
+Z30 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 140
+R3
+Z31 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/arrayMultiplier4x4.vhd
+Z32 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/arrayMultiplier4x4.vhd
+l0
+L5 1
+VfIm:kPgW7BLjcK6QLbOWK2
+!s100 Q3iZn8T_@8?27jiNzi73]3
+R6
+32
+R17
+!i10b 1
+R26
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/arrayMultiplier4x4.vhd|
+Z34 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/arrayMultiplier4x4.vhd|
+!i113 1
+R21
+R10
+Abehav
+R30
+R1
+R2
+DEx4 work 18 arraymultiplier4x4 0 22 fIm:kPgW7BLjcK6QLbOWK2
+!i122 140
+l30
+L11 64
+Vl`KN_A0;TILQJCM=;jLOe1
+!s100 7<M5<I:AG5lL6h[JaEK;G1
+R6
+32
+R17
+!i10b 1
+R26
+R33
+R34
+!i113 1
+R21
+R10
+Ebcd
+Z35 w1680883958
+R30
+Z36 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z37 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R1
+R2
+!i122 141
+R3
+Z38 8C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Project 1\ECE316Project1\BCD.vhd
+Z39 FC:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Project 1\ECE316Project1\BCD.vhd
+l0
+L6 1
+VKQKUOZc;GkgZJA2g8^1aH1
+!s100 nN1IcL=VVBG^_0EhgXK]02
+R6
+32
+Z40 !s110 1680887698
+!i10b 1
+R26
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Project 1\ECE316Project1\BCD.vhd|
+Z42 !s107 C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Project 1\ECE316Project1\BCD.vhd|
+!i113 1
+R21
+R10
+Astruct
+R30
+R36
+R37
+R1
+R2
+DEx4 work 3 bcd 0 22 KQKUOZc;GkgZJA2g8^1aH1
+!i122 141
+l35
+L17 91
+V`>ZiFDdm1LEi@G_^>1Y7]0
+!s100 Fhn?E_9eobf@Fk>Zm1JKa0
+R6
+32
+R40
+!i10b 1
+R26
+R41
+R42
+!i113 1
+R21
+R10
+Econtroller
+Z43 w1680883956
+R1
+R2
+!i122 142
+R3
+Z44 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/controller.vhd
+Z45 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/controller.vhd
+l0
+L4 1
+VXhSddeiTnHc]DgR3LiNo:2
+!s100 Z:1H`n9ekzJVC4bzfKZMP0
+R6
+32
+R40
+!i10b 1
+Z46 !s108 1680887698.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/controller.vhd|
+Z48 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/controller.vhd|
+!i113 1
+R21
+R10
+Astruct
+R1
+R2
+DEx4 work 10 controller 0 22 XhSddeiTnHc]DgR3LiNo:2
+!i122 142
+l15
+L10 107
+VUf]]X=87lBL[@dgJm[YE>0
+!s100 @jLaNTE?0?aCODa05QRT63
+R6
+32
+R40
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R21
+R10
+Efulladder
+Z49 w1680832409
+R1
+R2
+!i122 143
+R3
+Z50 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/fullAdder.vhd
+Z51 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/fullAdder.vhd
+l0
+L4 1
+VFCTz7fMR>k:Tzh1PV56Tj2
+!s100 lRXm62]G]la@FHz5AFmNK0
+R6
+32
+R40
+!i10b 1
+R46
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/fullAdder.vhd|
+Z53 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/fullAdder.vhd|
+!i113 1
+R21
+R10
+Abehav
+R1
+R2
+DEx4 work 9 fulladder 0 22 FCTz7fMR>k:Tzh1PV56Tj2
+!i122 143
+l10
+L9 5
+V3FSj8jK]l2VDi:0HLZHL_1
+!s100 ;0kDU3Y3gGkL@eJF6n[lX1
+R6
+32
+R40
+!i10b 1
+R46
+R52
+R53
+!i113 1
+R21
+R10
+Ehalfadder
+Z54 w1680832343
+R1
+R2
+!i122 144
+R3
+Z55 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/halfAdder.vhd
+Z56 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/halfAdder.vhd
+l0
+L4 1
+V^i]Ol9bCFcVGfK?E_8U`K2
+!s100 7EY@BjBL]8TgKK`gHMDW]2
+R6
+32
+Z57 !s110 1680887699
+!i10b 1
+Z58 !s108 1680887699.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/halfAdder.vhd|
+Z60 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/halfAdder.vhd|
+!i113 1
+R21
+R10
+Abehav
+R1
+R2
+DEx4 work 9 halfadder 0 22 ^i]Ol9bCFcVGfK?E_8U`K2
+!i122 144
+l10
+L9 5
+Vgm1IJKMQ1RJf=MIBPz?JW3
+!s100 _V88b^lRZJU^KcfQ_W0eN1
+R6
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R21
+R10
+Emultiplier
+Z61 w1680888079
+R1
+R2
+!i122 150
+R3
+Z62 8multiplier.vhd
+Z63 Fmultiplier.vhd
+l0
+L4 1
+VmZjNG57IeNjfEkS8QUD9F3
+!s100 @JZkAHLHCooeBEVY=c7X`3
+R6
+32
+Z64 !s110 1680888109
+!i10b 1
+Z65 !s108 1680888109.000000
+Z66 !s90 -reportprogress|300|multiplier.vhd|
+Z67 !s107 multiplier.vhd|
+!i113 1
+R10
+Astruct
+R1
+R2
+DEx4 work 10 multiplier 0 22 mZjNG57IeNjfEkS8QUD9F3
+!i122 150
+l58
+L11 71
+V^0^HZ?`5R1^YfK0OKJjU91
+!s100 TOdTR`J>1n?;0Da<z8g@G0
+R6
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R10
+Esevensegmentdisp
+Z68 w1680819622
+R1
+R2
+!i122 146
+R3
+Z69 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/sevenSegmentDisp.vhd
+Z70 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/sevenSegmentDisp.vhd
+l0
+L4 1
+V<^Lk?f]hibi@7e1]GH>I51
+!s100 TCi_iK>=GkV=V7ZIEkWa?2
+R6
+32
+R57
+!i10b 1
+R58
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/sevenSegmentDisp.vhd|
+Z72 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Project 1/ECE316Project1/sevenSegmentDisp.vhd|
+!i113 1
+R21
+R10
+Abehav
+R1
+R2
+DEx4 work 16 sevensegmentdisp 0 22 <^Lk?f]hibi@7e1]GH>I51
+!i122 146
+l10
+L9 18
+V=A@IE36HYZ?ZYNNI<NI@J3
+!s100 A`c_S;Sz?[=j9dGCnCc>=2
+R6
+32
+!s110 1680887700
+!i10b 1
+R58
+R71
+R72
+!i113 1
+R21
+R10

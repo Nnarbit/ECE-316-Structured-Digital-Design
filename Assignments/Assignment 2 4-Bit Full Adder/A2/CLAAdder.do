@@ -1,0 +1,9 @@
+quit -sim
+vcom CLAAdder.vhd
+vsim -t ns CLAAdder
+add wave -divider Inputs:
+add wave A
+add wave B
+add wave Cin
+add wave Sum
+add wave Cout

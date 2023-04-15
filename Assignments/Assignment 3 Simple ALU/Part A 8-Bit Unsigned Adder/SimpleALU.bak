@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entitiy SimpleALU is
+	port( Din : in std_logic_vector(7 downto 0);
+	Opr : in std_logic_vector(1 downto 0);
+	LoadX, LoadY, CLK : in std_logic --LoadX and LoadY are active LOW
+	);
+end SimpleALU
+
+architecture bhv_SimpleALU of SimpleALU is 
+
+
+end bhv_SimpleALU;

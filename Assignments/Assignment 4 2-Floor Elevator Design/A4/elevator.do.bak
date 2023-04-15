@@ -1,0 +1,19 @@
+quit -sim
+vcom elevator.vhd
+vsim -t ns elevator
+add wave -divider Inputs:
+add wave FB
+add wave CALL
+add wave FS
+add wave CLOCK
+add wave RESET
+add wave FIRE
+add wave UP
+add wave DOWN
+add wave F
+
+force FB 00
+force CALL 00
+force FS 01
+force RESET 0
+force FIRE 0

@@ -1,0 +1,28 @@
+|elevator
+n1 => C1.IN0
+n1 => C1.IN0
+n2 => C1.IN0
+fs1 => C1.IN1
+fs1 => C1.IN0
+fs2 => C1.IN0
+close => C1.IN1
+close => C1.IN1
+close => C1.IN1
+close => C1.IN1
+close => C1.IN1
+Clk => current_state~1.DATAIN
+reset => current_state~3.DATAIN
+floornum[0] <= floornum[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+floornum[1] <= <GND>
+floornum[2] <= floornum[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+floornum[3] <= floornum[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+floornum[4] <= floornum[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+floornum[5] <= <VCC>
+floornum[6] <= floornum[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+up <= up$latch.DB_MAX_OUTPUT_PORT_TYPE
+down <= down$latch.DB_MAX_OUTPUT_PORT_TYPE
+dooropen <= dooropen$latch.DB_MAX_OUTPUT_PORT_TYPE
+resetn1 <= resetn1.DB_MAX_OUTPUT_PORT_TYPE
+resetn2 <= up.DB_MAX_OUTPUT_PORT_TYPE
+
+

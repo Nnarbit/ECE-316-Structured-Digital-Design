@@ -1,0 +1,107 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity multiplier is
+	port (Din : in std_logic_vector(7 downto 0);
+		Start, LoadA_LSB, LoadA_MSB, LoadB, CLOCK : in std_logic;
+		Result : out std_logic_vector(5 downto 0);
+		Done, Overflow : out std_logic);
+end multiplier;
+
+Architecture struct of multiplier is 
+Component adder8
+	port (A, B : in std_logic_vector(7 downto 0);
+	Cin : in std_logic;
+	S : out std_logic_vector(7 downto 0);
+	Cout : out std_logic);
+end component;
+
+Component accumulator24bit
+	port ( clk : in  std_logic;
+	data_in : in  std_logic_vector (23 downto 0);
+	load : in  std_logic;
+	data_out : out  std_logic_vector (23 downto 0));
+end component;
+
+Component arrayMultiplier4x4 is
+	--generic (N : integer := 4);
+	port (X, Y : in std_logic_vector(3 downto 0);
+		  P: out std_logic_vector(7 downto 0));
+end component;
+
+Component BCD is
+	generic(N: positive := 20; 
+          numDigits: positive := 7); 
+
+	port ( Din: in STD_LOGIC_VECTOR(N-1 downto 0); 
+	Dout: out STD_LOGIC_VECTOR((numDigits * 4)-1 downto 0); 
+	overflow: out std_logic);
+	
+end component;
+
+Component sevenSegmentDisp is --Active Low
+	port (Din : in std_logic_vector(3 downto 0);
+	Dout : out std_logic_vector(6 downto 0));
+end component;
+
+Component controller is
+    port (Start, clk : in std_logic; 
+          Load, Add, Shift4, Done : out std_logic);
+end component;
+
+Signal load, add, shift4, addCout, BCDoverflow : std_logic; -- addCout not used at the moment
+Signal multToAdder: std_logic_vector(7 downto 0);
+signal accIn, accOut : std_logic_vector(23 downto 0);
+signal BCDout : std_logic_vector(19 downto 0);
+signal B, D0, D1, D2, D3, D4 : std_logic_vector(3 downto 0);
+signal dout0, dout1, dout2, dout3, dout4, dout5, dout6 : std_logic_vector(6 downto 0);
+
+begin
+
+	accIn <= "000000000000000000000000";
+	accOut <= "000000000000000000000000";
+	B <= "0000";
+
+CTR: Controller port map(Start, CLOCK, load, add, shift4, Done);
+Acc: accumulator24bit port map(CLOCK, accIn, load, accOut);
+Arr4by4: arrayMultiplier4x4 port map(B, accOut(3 downto 0), multToAdder);
+Add8: Adder8 port map(multToAdder, accOut(23 downto 16), '0', accOut(23 downto 16), addCout);
+B_C_D: BCD port map(accOut(19 downto 0), BCDout, BCDoverflow);
+
+Disp0: sevenSegmentDisp port map(BCDout(3 downto 0), dout0);
+Disp1: sevenSegmentDisp port map(BCDout(7 downto 4), dout1);
+Disp2: sevenSegmentDisp port map(BCDout(11 downto 8), dout2);
+Disp3: sevenSegmentDisp port map(BCDout(15 downto 12), dout3);
+Disp4: sevenSegmentDisp port map(BCDout(19 downto 16), dout4);
+Disp5: sevenSegmentDisp port map(BCDout(23 downto 20), dout5);
+Disp6: sevenSegmentDisp port map(BCDout(27 downto 24), dout6);
+
+process(CLOCK) begin
+
+	if Load = '1' then 
+
+		accIn <= "000000000000000000000000";
+		accOut <= "000000000000000000000000";
+
+		if LoadA_MSB = '0' then
+			accIn(15 downto 8) <= Din (7 downto 0);
+		end if;
+
+		if LoadA_LSB = '0' then
+			accIn(7 downto 0) <= Din (7 downto 0);
+		end if;
+
+		if LoadB = '0' then 
+			B <= Din(3 downto 0);
+		end if;
+
+	end if;
+
+	if shift4 = '1' then 
+		accIn(19 downto 0) <= accOut(23 downto 4);
+		accIn(23 downto 20) <= "0000";
+	end if;
+
+end process;
+
+end struct;

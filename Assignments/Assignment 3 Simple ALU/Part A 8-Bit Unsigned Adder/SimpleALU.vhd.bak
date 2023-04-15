@@ -1,0 +1,56 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity SimpleALU is
+	port( Din : in std_logic_vector(7 downto 0);
+	Opr : in std_logic_vector(1 downto 0);
+	LoadX, LoadY, CLK : in std_logic; --LoadX and LoadY are active LOW
+	Dout0, Dout1 : out std_logic_vector(6 downto 0);
+	Overflow : out std_logic
+	);
+end SimpleALU;
+
+architecture bhv_SimpleALU of SimpleALU is 
+	component Register8Load0 is
+		port(Din : in std_logic_vector(7 downto 0);
+		load, clk : in std_logic;
+		Dout : out std_logic_vector(7 downto 0));
+	end component;
+
+	component mux4bus8 is
+		port(sel : in std_logic_vector(1 downto 0);
+		A, B, C, D: in std_logic_vector(7 downto 0);
+		X : out std_logic_vector(7 downto 0));
+	end component;
+
+	component Adder8 is
+		port(A, B : in std_logic_vector(7 downto 0);
+		Cin : in std_logic;
+		Sum : out std_logic_vector(7 downto 0);
+		Cout : out std_logic);
+	end component;
+
+	component BCD is
+		port(Din : in std_logic_vector(7 downto 0);
+		D0out, D1out : out std_logic_vector(3 downto 0);
+		overflow : out std_logic);
+	end component;
+
+	component display7segment is
+		port (Din : in std_logic_vector(3 downto 0);
+        Dout : out std_logic_vector(6 downto 0));
+	end component;
+
+signal regXToAdder, regYToMux, muxToAdder, adderToBCD : std_logic_vector(7 downto 0);
+signal bcdTo7Seg0, bcdTo7Seg1 : std_logic_vector (3 downto 0);
+signal bcdOverflow : std_logic;
+begin
+REGX : Register8Load0 port map(Din, LoadX, CLK, regXToAdder);
+REGY : Register8Load0 port map(Din, LoadY, CLK, regYToMux);
+MUX : mux4bus8 port map (Opr, "00000000", "00000001", "11111111", regYToMux, muxToAdder);
+ADDR : Adder8 port map (regXToAdder, muxToAdder, '0', adderToBCD, Overflow);
+cBCD : BCD port map (adderToBCD, bcdTo7Seg0, bcdTo7Seg1, bcdOverflow);
+seg0 : display7segment port map(bcdTo7Seg0, Dout0);
+seg1 : display7segment port map(bcdTo7Seg1, Dout1);
+
+end bhv_SimpleALU;

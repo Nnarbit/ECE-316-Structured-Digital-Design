@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Adder8 is
+	port(A, B : in std_logic_vector(7 downto 0);
+	Cin : in std_logic;
+	Sum : out std_logic_vector(7 downto 0);
+	Cout : out std_logic);
+end Adder8;
+
+architecture bhv_Adder8 of Adder8 is
+
+component CLAAdder
+    port(A, B : in std_logic_vector(3 downto 0);
+	Cin : in std_logic;
+	S : out std_logic_vector(3 downto 0);
+	Co : out std_logic);
+end component;
+
+signal Cs : std_logic;	
+
+begin
+CLAA30 : CLAAdder port map(A(3 downto 0), B(3 downto 0), Cin, Sum(3 downto 0), Cs); --CLAA bits 3 through 0
+CLAA74 : CLAAdder port map(A(7 downto 4), B(7 downto 4), Cs, Sum(7 downto 4), Cout); --CLAA bits 7 through 4
+
+end bhv_Adder8;

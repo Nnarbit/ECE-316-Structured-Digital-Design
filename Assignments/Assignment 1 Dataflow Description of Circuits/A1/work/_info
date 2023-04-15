@@ -1,0 +1,171 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/
+Einverter
+Z0 w1675730660
+!i122 39
+Z1 dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments
+Z2 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/inverter.vhd
+Z3 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/inverter.vhd
+l0
+L1 1
+V^<niQzQbfFIaj<Uen1m0D1
+!s100 AE;L0QSI`O]oN3gE0;fbH0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1675773604
+!i10b 1
+Z6 !s108 1675773604.000000
+Z7 !s90 -reportprogress|300|-work|work|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/inverter.vhd|
+Z8 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/inverter.vhd|
+!i113 1
+Z9 o-work work
+Z10 tExplicit 1 CvgOpt 0
+Aarch_inverter
+DEx4 work 8 inverter 0 22 ^<niQzQbfFIaj<Uen1m0D1
+!i122 39
+l7
+L6 4
+VHC9jNn]:fWO2cVXOG6zQk0
+!s100 TCJY6ZkiZjTY:m627f`AE1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Emux_4to1_8bitbus_top
+Z11 w1675737687
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 38
+R1
+Z14 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/mux4bus8.vhd
+Z15 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/mux4bus8.vhd
+l0
+L5 1
+V4;zge[YLBX>5m4lRBgbgh1
+!s100 hR^oe8QQYRDNJm]Fd5QE20
+R4
+32
+Z16 !s110 1675773594
+!i10b 1
+Z17 !s108 1675773594.000000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/mux4bus8.vhd|
+Z19 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/mux4bus8.vhd|
+!i113 1
+R9
+R10
+Aarch_mux_4to1_8bitbus_top
+R12
+R13
+DEx4 work 20 mux_4to1_8bitbus_top 0 22 4;zge[YLBX>5m4lRBgbgh1
+!i122 38
+l12
+L11 13
+VmKd?W8?T^M_]XDjTVW_2j1
+!s100 Rd@_FEGNHnjQZzoLf3W2T0
+R4
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R9
+R10
+Eregister8
+Z20 w1675734727
+R12
+R13
+!i122 47
+R1
+Z21 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Register8.vhd
+Z22 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Register8.vhd
+l0
+L4 1
+V0dN2U_O;34GXcOkhHgTQF3
+!s100 `Z^_ZAbSf@TB?L4O8ZYoT1
+R4
+32
+Z23 !s110 1675775213
+!i10b 1
+Z24 !s108 1675775213.000000
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Register8.vhd|
+Z26 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Register8.vhd|
+!i113 1
+R9
+R10
+Aarch_register8
+R12
+R13
+Z27 DEx4 work 9 register8 0 22 0dN2U_O;34GXcOkhHgTQF3
+!i122 47
+l12
+Z28 L10 12
+Z29 VoAQh>6lU:mMc3ljHgK]7m2
+Z30 !s100 lTFC`Oh4@H>MYd0cYCFjB0
+R4
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R9
+R10
+Etristate_buffer14to16
+Z31 w1675773632
+R12
+R13
+!i122 44
+R1
+Z32 8C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/tristate_buffer14to16.vhd
+Z33 FC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/tristate_buffer14to16.vhd
+l0
+L4 1
+V7dT_VEMRSeXUi^b<?jfX03
+!s100 [_]__AJ?0MLTFg[FR9[e<0
+R4
+32
+Z34 !s110 1675773633
+!i10b 1
+Z35 !s108 1675773633.000000
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/tristate_buffer14to16.vhd|
+Z37 !s107 C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/tristate_buffer14to16.vhd|
+!i113 1
+R9
+R10
+Aarch_tristate_buffer14to16
+R12
+R13
+DEx4 work 21 tristate_buffer14to16 0 22 7dT_VEMRSeXUi^b<?jfX03
+!i122 44
+l11
+R28
+VW^g6UE1fjCkjSoLa1nKT01
+!s100 ;NG`?EU>dnZZN2;eUNZDV3
+R4
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R9
+R10

@@ -1,0 +1,13 @@
+quit -sim
+vcom multiplier.vhd
+vsim -t ns multiplier
+add wave -divider Inputs:
+add wave Din
+add wave Start
+add wave LoadA_LSB
+add wave LoadA_MSB
+add wave LoadB
+add wave CLOCK
+add wave Result
+add wave Done
+add wave Overflow

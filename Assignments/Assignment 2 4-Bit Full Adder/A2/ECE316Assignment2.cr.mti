@@ -1,0 +1,52 @@
+{C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/Adder4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\Adder4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder4
+-- Compiling architecture struct of Adder4
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLAAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\CLAAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CLAAdder
+-- Compiling architecture bhv_CLAAdder of CLAAdder
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/XOR_.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\XOR_.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity s_xor1
+-- Compiling architecture df_s_xor1 of s_xor1
+** Warning: C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\XOR_.vhd(12): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/CLALogic.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\CLALogic.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CLALogic
+-- Compiling architecture bhv_CLAlogic of CLAlogic
+** Warning: C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\CLALogic.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\CLALogic.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdderPG.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\FullAdderPG.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FullAdderGP
+-- Compiling architecture behav of FullAdderGP
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 2/FullAdder.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\FullAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity FullAdder
+-- Compiling architecture behav of FullAdder
+** Warning: C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\FullAdder.vhd(7): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 2\FullAdder.vhd(8): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

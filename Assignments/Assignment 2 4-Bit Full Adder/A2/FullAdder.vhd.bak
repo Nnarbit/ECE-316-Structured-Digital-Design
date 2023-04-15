@@ -1,0 +1,9 @@
+Entity FullAdder is
+	port (X, Y, Cin : in bit;
+	Cout, Sum : out bit);
+End FullAdder;
+Architecture behav of FullAdder is
+begin
+	sum <= (X xor Y xor Cin) after 5ns;
+	Cout <= (X and Y) or ((X xor Y) and Cin) after 5ns;
+End behav;

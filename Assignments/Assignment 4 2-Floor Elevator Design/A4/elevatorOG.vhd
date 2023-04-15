@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity elevator is
+    port (
+        FB, CALL, FS : in std_logic_vector (2 downto 1);
+        CLOCK, RESET, FIRE : in std_logic;
+        UP, DOWN: out std_logic;
+        F : out std_logic_vector (6 downto 0)
+    );
+end elevator;
+
+architecture bhv of elevator is
+
+    component elevatorControlCircuit is
+        port( 
+            N : in std_logic_vector (2 downto 1); -- floor call
+            FS : in std_logic_vector (2 downto 1); -- floor sensor
+            DC, CLOCK, RESET, FIRE : in std_logic; -- DC = door closed 
+            R : out std_logic_vector(2 downto 1); -- reset floor
+            UP, DOWN, DO : out std_logic; -- DO = door open
+            F : out std_logic_vector(6 downto 0) -- 7-segment display of current floor (coded for DE1-SOC, active low 7seg)
+        );
+    end component;
+
+    component doorCircuit is
+        port(
+            DO, FIRE, CLOCK : in std_logic; --fire and floor one, otherwise remain closed as it travels down
+            FS : in std_logic_vector (2 downto 1);
+            DC : out std_logic
+        );
+    end component;
+
+    component storageCircuit is
+        port (
+            FB, CALL, R, CLOCK : in std_logic;
+            N : out std_logic
+        );
+    end component;
+
+    signal ECCtoSCReset, N : std_logic_vector (2 downto 1);
+    signal ECCToDoorCDo, ECCToDoorCFire, DoorCToECCDC, ECCUP, ECCDOWN : std_logic;
+
+begin
+    ECC : elevatorControlCircuit port map (N, FS, DoorCToECCDC, CLOCK, RESET, FIRE, ECCtoSCReset, ECCUP, ECCDOWN, ECCToDoorCDo, F);
+    SC1 : storageCircuit port map (FB(1), CALL(1), ECCtoSCReset(1), CLOCK, N(1));
+    SC2 : storageCircuit port map (FB(2), CALL(2), ECCtoSCReset(2), CLOCK, N(2));
+    DoorC : doorCircuit port map (ECCToDoorCDo, ECCToDoorCFire, CLOCK, FS, DoorCToECCDC);
+    F <= "1100011" when ECCUP = '1' else -- "u"
+         "0100001" when ECCDOWN = '1';   -- "d"
+    UP <= ECCUP;
+    DOWN <= ECCDOWN;
+end bhv;

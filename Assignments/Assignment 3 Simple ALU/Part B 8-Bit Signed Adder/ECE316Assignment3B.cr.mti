@@ -1,0 +1,50 @@
+{C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/ALUB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/ALUB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ALUB
+-- Compiling architecture struct of ALUB
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/BCD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/BCD.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity BCD
+-- Compiling architecture behav of BCD
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/Register0.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/Register0.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg8
+-- Compiling architecture behav of reg8
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/AdderoOp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/AdderoOp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity addo
+-- Compiling architecture struct of addo
+
+} {} {}} {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/sevenSegDisplay.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B/sevenSegDisplay.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sevensegdisplay
+-- Compiling architecture behav of sevensegdisplay
+
+} {} {}}

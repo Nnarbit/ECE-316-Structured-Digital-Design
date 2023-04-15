@@ -1,0 +1,204 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 3/Part B
+Edoorcircuit
+Z0 w1678463628
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 106
+Z4 dC:/Users/brand/Desktop/ECE 316 Structured Digital Design/Assignments/Assignment 4
+Z5 8C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\doorCircuit.vhd
+Z6 FC:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\doorCircuit.vhd
+l0
+L5 1
+VTDXZdYFbZIA5Zo83]L7mO2
+!s100 TgP6RY?zmYD<>3AzPa30j3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1678468504
+!i10b 1
+Z9 !s108 1678468504.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\doorCircuit.vhd|
+Z11 !s107 C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\doorCircuit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+R3
+DEx4 work 11 doorcircuit 0 22 TDXZdYFbZIA5Zo83]L7mO2
+!i122 106
+l15
+L13 17
+VT@iIk`[BHand[SU5KI]:W1
+!s100 [ODg<jVMee?2[DQ1fzBTP3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eelevator
+Z14 w1678503848
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 115
+R4
+Z17 8elevator.vhd
+Z18 Felevator.vhd
+l0
+L5 1
+VMoNi4hoXTBcf[zPM=W7;m3
+!s100 =CXim62CI2flLCfAdZjDZ3
+R7
+32
+Z19 !s110 1678504098
+!i10b 1
+Z20 !s108 1678504098.000000
+Z21 !s90 -reportprogress|300|elevator.vhd|
+!s107 elevator.vhd|
+!i113 1
+R13
+Abehav
+R15
+R16
+R2
+R3
+DEx4 work 8 elevator 0 22 MoNi4hoXTBcf[zPM=W7;m3
+!i122 115
+l25
+Z22 L21 111
+Va_=b8^Dl8on`?b]I9c5C82
+Z23 !s100 @UHkFMhdY5f_5nDaGfdMJ2
+R7
+32
+R19
+!i10b 1
+R20
+R21
+Z24 !s107 elevator.vhd|
+!i113 1
+R13
+Abhv
+R1
+R2
+R3
+DEx4 work 8 elevator 0 22 nIQ3^@89AV<iez5ao=hkS2
+!i122 107
+l45
+L14 41
+VQojU6m?XV0zgbY7dM0Tf11
+!s100 8OfKQ]4?>WRY6og6Em;RW3
+R7
+32
+Z25 !s110 1678468505
+!i10b 1
+Z26 !s108 1678468505.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\elevator.vhd|
+Z28 !s107 C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\elevator.vhd|
+!i113 1
+R12
+R13
+w1678465706
+Z29 FC:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\elevator.vhd
+Z30 8C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\elevator.vhd
+Eelevatorcontrolcircuit
+Z31 w1678468655
+R1
+R2
+R3
+!i122 113
+R4
+Z32 8elevatorControlCircuit.vhd
+Z33 FelevatorControlCircuit.vhd
+l0
+L5 1
+V=2Ua3d0[F0lak1W_b[k983
+!s100 e:Y:G]T`>fJ8N?Zg=U3K@3
+R7
+32
+Z34 !s110 1678468678
+!i10b 1
+Z35 !s108 1678468678.000000
+Z36 !s90 -reportprogress|300|elevatorControlCircuit.vhd|
+Z37 !s107 elevatorControlCircuit.vhd|
+!i113 1
+R13
+Abhv
+R1
+R2
+R3
+DEx4 work 22 elevatorcontrolcircuit 0 22 =2Ua3d0[F0lak1W_b[k983
+!i122 113
+l19
+L16 93
+V2]H:;[^kzmMj_JISRRmK>3
+!s100 H:2IhPB<@mdf=H2Z?2`SR2
+R7
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R13
+Estoragecircuit
+Z38 w1678463627
+R1
+R2
+R3
+!i122 109
+R4
+Z39 8C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\storageCircuit.vhd
+Z40 FC:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\storageCircuit.vhd
+l0
+L5 1
+Vz7QafGFjI;6IQa7Lg:?:>2
+!s100 VD=6SjeoHB`N^>5^8:=S^0
+R7
+32
+R25
+!i10b 1
+R26
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\storageCircuit.vhd|
+Z42 !s107 C:\Users\brand\Desktop\ECE 316 Structured Digital Design\Assignments\Assignment 4\storageCircuit.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+DEx4 work 14 storagecircuit 0 22 z7QafGFjI;6IQa7Lg:?:>2
+!i122 109
+l14
+L12 12
+VA_z2]SYi9P_jE3>bWA<mE2
+!s100 7W8g9Z5<;Pf=Rcl8hzf]T3
+R7
+32
+R25
+!i10b 1
+R26
+R41
+R42
+!i113 1
+R12
+R13
